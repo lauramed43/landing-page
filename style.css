@@ -20,3 +20,33 @@ a {
     font-size: 24px;
     color: #F9FAF8;
 }
+
+.text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.undertext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.button {
+    background-color: #3882F6;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    color: #F9FAF8;
+}
+
+.placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 150px;
+    background-color: #9d9fa3;
+    color: #F9FAF8;
+}
