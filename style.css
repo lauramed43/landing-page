@@ -80,3 +80,19 @@ a {
 
 /*This is the start of the second content area*/
 
+.maincontent {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    padding: 20px;
+    margin: 0;
+}
+
