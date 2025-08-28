@@ -4,6 +4,7 @@ body {
     font-family: Roboto, sans-serif;
     margin: 0;
     padding: 0;
+    height: 100vh;
 }
 
 ul {
@@ -96,11 +97,51 @@ a {
     margin: 0;
 }
 
+/*Section content 2*/
+
 .title1 {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
     text-align: center;
-    padding: 25px
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
+.cubes {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: 90px;
+    padding-left: 90px;
+    padding-top: 0;
+    margin: 0;
+}
+
+.cube1, .cube2, .cube3, .cube4 {
+    border: 3px solid #3882F6;
+    width: 130px;
+    height: 130px;
+    border-radius: 5px;
+    flex-shrink: 0;
+    gap: 15px;
+}
+
+.gr1, .gr2, .gr3, .gr4 {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px ;
+    text-align: center;
+    max-width: 130px;
+}
+
+.text1, .text2, .text3, .text4 {
+    color: #1F2937;
+    padding-bottom: 70px;
+}
+
+/*Finished the second content part*/
