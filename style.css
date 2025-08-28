@@ -28,7 +28,7 @@ a {
 .logolinks {
     display: flex;
     justify-content: space-between;
-    padding: 50px;
+    padding: 20px 80px;
 }
 /* this is the second part of the header*/
 .text {
@@ -55,19 +55,28 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 350px;
-    height: 150px;
+    width: 500px;
+    height: 250px;
     background-color: #9d9fa3;
     color: #F9FAF8;
 }
-.header2 {
-    width: 400px;
+
+.maintext {
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
-    padding: 50px;
+    width: 500px;
+    gap: 10px;
+}
+
+.header2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
 }
 
 .header {
     background-color: #1F2937;
 }
+
+/*This is the start of the second content area*/
+
