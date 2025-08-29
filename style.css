@@ -51,6 +51,7 @@ a {
     border: none;
     color: #F9FAF8;
     cursor: pointer;
+    font-weight: 700;
 }
 
 .placeholder {
@@ -79,6 +80,7 @@ a {
 
 .header {
     background-color: #1F2937;
+    padding: 10px 80px;
 }
 
 /*This is the start of the second content area*/
@@ -168,3 +170,49 @@ a {
 }
 
 /*Finished the 3 content part*/
+
+.content3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.sign {
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.action {
+    color: #F9FAF8;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.button2 {
+    cursor: pointer;
+    background-color: #3882F6;
+    border: 1px solid #F9FAF8;
+    border-radius: 5px;
+    width: 100px;
+    height: 25px;
+    color: #F9FAF8;
+    font-weight: 700;
+    align-self: center;
+}
+
+.blue {
+    display: flex;
+    width: 1100px;
+    height: 130px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    gap: 90px;
+    justify-content: space-around;
+}
+
+.tex {
+    text-align: left;
+    align-self: center;
+}
