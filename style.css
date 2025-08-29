@@ -50,6 +50,7 @@ a {
     border-radius: 5px;
     border: none;
     color: #F9FAF8;
+    cursor: pointer;
 }
 
 .placeholder {
@@ -60,6 +61,7 @@ a {
     height: 250px;
     background-color: #9d9fa3;
     color: #F9FAF8;
+    border-radius: 10px;
 }
 
 .maintext {
@@ -145,3 +147,18 @@ a {
 }
 
 /*Finished the second content part*/
+
+.content2 {
+    background-color: #E5E7EB;
+    padding: 90px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 300;
+}
