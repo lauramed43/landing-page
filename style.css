@@ -146,14 +146,12 @@ a {
     padding-bottom: 70px;
 }
 
-/*Finished the second content part*/
+/*Finished the second content part, starting the third*/
 
 .content2 {
     background-color: #E5E7EB;
-    padding: 90px;
-    justify-content: center;
-    align-items: center;
     text-align: left;
+    padding: 150px 160px 150px 160px;
 }
 
 .quote {
@@ -162,3 +160,11 @@ a {
     color: #1F2937;
     font-weight: 300;
 }
+
+.signature {
+    font-weight: 600;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*Finished the 3 content part*/
